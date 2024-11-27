@@ -196,7 +196,7 @@ impl Parameters for MainNetwork {
             NetworkUpgrade::Heartwood => Some(BlockHeight(903_000)),
             NetworkUpgrade::Canopy => Some(BlockHeight(1_046_400)),
             NetworkUpgrade::Nu5 => Some(BlockHeight(1_687_104)),
-            NetworkUpgrade::Nu6 => Some(BlockHeight(2_976_000)),
+            NetworkUpgrade::Nu6 => Some(BlockHeight(2_726_400)),
             #[cfg(feature = "zfuture")]
             NetworkUpgrade::ZFuture => None,
         }
